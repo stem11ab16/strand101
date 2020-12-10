@@ -1,0 +1,165 @@
+
+
+body {
+    background-color:#EBB75B;
+    font-family: 'Raleway', sans-serif;
+}
+
+.main {
+    width: 1000px;
+    /* center div*/
+    margin: 0 auto;
+    background: #F5DD86;
+    box-shadow: 0px 0px 25px #503116;
+}
+
+.header {
+    padding: 20px;
+    display: flex;
+}
+
+.head {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.header img {
+    height: 100px;
+}
+
+.nav {
+    width: 100%;
+    background: #593719;
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav ul li {
+    list-style: none;
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+.nav ul li a:hover {
+    color: #593719;
+    background:#F2DAC4;
+    transition: .5s;
+}
+
+.stem {
+    height: 200px;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.Title  {
+    padding: 20px;
+}
+.blogsref {
+    font-size: 60px;
+    padding: 20px;
+    text-align: center;
+    background: center;
+    text-emphasis: bold;
+}
+
+.blogsref a:hover {
+    color: #593719; 
+    transition: .5s;
+}
+
+.blogbox {
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+    box-sizing: border-box;
+    border: 20px 20px 20px 20px;
+    
+}
+
+.aboutme_header > hr {
+    background-color:#593719;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70%;
+}
+
+.blogbox img {
+    height: 200px;
+    padding-right: 40px;
+}
+.banner {
+    width: 100%;
+    padding: 0px 20px;
+    box-sizing: border-box;
+}
+
+.ytvid {
+    text-align: center;
+    padding: 20px;
+}
+.banner img {
+    width: 100%;
+}
+.qweqwe {
+    border-bottom: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    padding: 20px 20px 10px 20px;
+
+    font-family: 'Raleway', sans-serif;
+    vertical-align: middle;
+}
+
+.left   {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: justify;
+    width: 20%;
+}
+
+.middle {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: justify;
+    width: 50%;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+ 
+}
+
+.example {
+    background-color: #F9EAB4;
+    text-align: center;
+    margin: 0px 20px 20px 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: #593719;
+    transition: .5s;
+}
+a:active {
+    color: #EBB75B
+}
